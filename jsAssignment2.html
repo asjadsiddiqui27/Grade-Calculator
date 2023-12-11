@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<h1>Percentage and Grade Calculator</h1>
+
+    <form>
+        <!-- Subjects -->
+        <label for="Engmarks"> English : </label>
+        <input type="number" class="obtainMarks Engmarks"  min="0" max="100">
+        <input type="number" readonly class="outOfMarks" id="engOutIf" min="0" max="100">
+        <br><br>
+
+        <label for="hindi"> Hindi : </label>
+        <input type="number" class="obtainMarks hindi" min="0" max="100">
+        <input type="number" readonly class="outOfMarks" id="hindiOutIf" min="0" max="100">
+        <br><br>
+
+        <label for="biology"> Biology : </label>
+        <input type="number" class="obtainMarks biology" min="0" max="100">
+        <input type="number" readonly class="outOfMarks" id="biologyOutIf" min="0" max="100">
+        <br><br>
+
+        <label for="chemistry"> Chemistry: </label>
+        <input type="number" class="obtainMarks chemistry" min="0" max="100">
+        <input type="number" readonly class="outOfMarks" id="chemistryOutIf" min="0" max="100">
+        <br><br>
+
+        <label for="maths"> Maths : </label>
+        <input type="number" class="obtainMarks maths" min="0" max="100">
+        <input type="number" readonly class="outOfMarks" id="mathsOutIf" min="0" max="100">
+        <br><br>
+
+         <!-- Calculate Button Marks -->
+         <button type="submit" id="submitBtn"> calculate</button>
+         <br><br>
+
+
+        <!-- Total Marks -->
+        <label for="totalObtain"> TotalMarks Obtain : </label>
+        <input type="number" id="totalObtain" readonly name="total">
+        <label for="totalOutIf">Out Of :</label>
+        <input type="number" readonly class="outOfMarks" id="totalOutIf">
+        <br><br>
+
+        
+        <!-- Percentage  -->
+        <label for="percentage"> Percentage</label>
+        <input type="number" id="percentage" name="">
+        <br>
+        <br>
+
+        <!-- Garde -->
+        <label for="grade"> Garde : </label>
+        <input type="text" id="grade" name="grade"> 
+        <br>
+        <br>
+    </form>
+
+    <script src="jsAssignment2.js"></script>
+</body>
+
+</html>
